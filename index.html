@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Resume</title>
+    </head>
+    <body class="scale-cv">
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Peeyoosh</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon'></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="./assets/img/ps.jpg" alt="" class="home__img">
+
+                                <h1 class="home__title">PEEYOOSH <b>SURYAWANSHI</b></h1>
+                                <h3 class="home__profession"></h3>
+
+                                 <!-- Button to generate and download the pdf. Available for desktop. -->
+                                 <div>
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                                 </div>
+                            </div>
+                    
+                            <div class="home__adress bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon'></i> 32,Vikas Nagar,Nanded - 431605
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon'></i> piyumsiit@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon'></i> +91 9922277835
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!--========== PROFILE ==========-->
+                        <section class="profile section" id="profile">
+                            <h2 class="section-title">Profile</h2>
+    
+                            <p class="profile__description">
+                                I am an engineer who is passionate about learning new technologies and building products with it. 
+                            </p>  
+                        </section>
+                
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+                         
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>   
+
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/" target="_blank" class ="social__link">
+                                <i class='bx bxl-linkedin-square social__icon' ></i>linkedin.com/in/peeyooshms
+                            </a>
+                            <a href="https://github.com/" target="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon'></i> https://github.com/PeeyooshMS
+                            </a>
+                        </div>
+                        
+                    </section>
+
+                    
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> English
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Marathi
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Hindi
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!--========== Personal Projects ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Personal Projects</h2>
+
+                            <div class="experience__content">
+                                
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title"> Responsive Resume with downlaod and dark theme feature</h3>
+                                    <span class="experience__company"> September, 2022</span>
+                                    <p class="experience__description">
+                                        <a href="https://github.com/PeeyooshMS/ResponsiveResume" target="_blank" class ="social__link">
+                                         <i class='bx bx-right-top-arrow-circle social__icon'></i>https://github.com/PeeyooshMS<br>/ResponsiveResume
+                                        </a>
+                                        <br>
+                                        This Resume is created through the above project. 
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                    </section>
+
+                  
+
+                </div>
+
+                <div class="resume__right">
+
+                     
+                      <!--========== EDUCATION ==========-->
+                      <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title"> Electronis and Telecommunication Engineering (BTech) </h3>
+                                    <span class="education__studies">SGGS Nanded </span>
+                                    <span class="education__year">2018 - 2022</span>
+                                    <p>
+                                       <b>Relevant Coursework:</b>
+                                        Data Structure, 
+                                        Statistics & Probability, 
+                                        System Software and Operating Systems                   
+
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!--<span class="education__line"></span>-->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">XI - XII </h3>
+                                    <span class="education__studies">Yeshwant College Nanded</span>
+                                    <span class="education__year">2015-17</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== EXPERIENCE  ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Projects & Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title"> LED Automation Using Image Processing</h3>
+                                    <span class="experience__company"> March, 2022 - May, 2022 | Final Year Project</span>
+                                    <p class="experience__description">
+                                        <b> Tech Used :</b> Raspberry Pi, Thonny Software, Python<br>
+                                        
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title"> Automatic Hand Sanitizer Dispenser </h3>
+                                    <span class="experience__company"> March, 2022 - May, 2022 | Third Year Mini Project</span>
+                                    <p class="experience__description">
+                                        <b> Tech Used :</b> LPC2138 Microcontroller, KEIL and PROTEUS Softwares<br>
+                                        
+                                    </p>
+                                </div>
+                            </div>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!--<span class="experience__line"></span>-->
+                                </div>
+ 
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title"> Web Developer</h3>
+                                    <span class="experience__company"> December,2022 - January, 2021 | CatrovarCer (WFH)</span>
+                                    <p class="experience__description">
+                                        <b> Tech Used :</b> Front End : Js, Bootstrap, Material UI, Figma<br> 
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!--========== Competitions   ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Competition</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title"> KPIT Innovation</h3>
+                                    <span class="experience__company"> August, 2021 - February, 2022  </span>
+                                    <p> Research on Predictive Maintainance of Electric Vehicle Rotor System.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__container bd-grid">
+                                <div class="experience__content">
+                                    <div class="experience__time">
+                                        <span class="experience__rounder"></span>
+                                        <span class="experience__line"></span>
+                                    </div>
+    
+                                    <div class="experience__data bd-grid">
+                                        <h3 class="experience__title"> PRAGYA Robotics Competition</h3>
+                                        <span class="experience__company"> February, 2019 and - February, 2020  </span>
+                                        <p> Designed Line follower bot.</p>
+                                    </div>
+                                </div>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!--<span class="experience__line"></span>-->
+                                </div>
+ 
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">eYantra - IIT Mumbai Robotics Competition </h3>
+                                    <span class="experience__company"> November,2019 - December, 2019 </span>
+                                    <p class="experience__description">
+                                       Worked on a Rescue Drone Project.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Html
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Js
+                                </li>
+                            </ul>
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> CSS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Python
+                                </li>
+                            </ul>
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> C++
+                                </li>
+                            </ul>
+    
+                        </div>
+                    </section>
+
+                      <!--========== INTERESTS ==========-->
+                    
+                    
+                      <section class="interests section">
+                        <h2 class="section-title">Interest</h2>
+
+                        <div class="interests__container bd-grid">
+                           <!--
+                             <div class="interests__content">
+                                <i class='bx bx-palette interests__icon'></i>
+                                <span class="interests__name">Drawing</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-book-open interests__icon'></i>
+                                <span class="interests__name">Reading</span>
+                            </div>
+                            --> 
+                            <div class="interests__content">
+                                <i class='bx bxs-plane-alt interests__icon'></i>
+                                <span class="interests__name">Travelling</span>
+                            </div>
+                            
+                                <div class="interests__content">
+                                <i class='bx bx-leaf interests__icon'></i>
+                                <span class="interests__name">Gardening</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class='bx bx-wrench interests__icon'></i>
+                                <span class="interests__name">Robotics</span>
+                            </div>
+                        </div>
+                    </section>
+
+
+                     <!--========== CERTIFICATES ==========-->
+                     <!--- <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificicate__title">Certified for compliance in the work area.</h3>
+                                <p class="certificate__description">
+                                    for meeting the expectation of leading the team to work th e specified tasks in the lbour field.
+                                </p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificicate__title">Certified for compliance in the work area.</h3>
+                                <p class="certificate__description">
+                                    for meeting the expectation of leading the team to work th e specified tasks in the lbour field.
+                                </p>
+                            </div>
+                        </div>
+                    </section> -->
+
+                    <!--========== REFERENCES ==========-->
+                    <!--<section class="references section" id="references">
+                        <h2 class="section-title">References</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Sr. Director</span>
+                                <h3 class="reference__title">Prof XYZ</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: 999-888-7889</li>
+                                    <li>Email: user@gmail.com</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Mag. Developer</span>
+                                <h3 class="reference__title">Mr. ABC</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: 999-888-7889</li>
+                                    <li>Email: user@gmail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section> -->
+
+                     
+                            
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
